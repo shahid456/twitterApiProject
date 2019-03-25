@@ -12,6 +12,7 @@ class SearchPage extends React.Component {
   render() {
     return (
       <div className="Search">
+        <h1 className="textAlign">Twitter API</h1>
         <img
           src="https://sguru.org/wp-content/uploads/2018/02/twitter_logo.png"
           className="dimension"

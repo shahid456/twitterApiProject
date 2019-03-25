@@ -77,7 +77,7 @@ class UsersPage extends React.Component {
               className="imgDim"
             />
           </Link>
-          <h1 className="textAlign">Twitter Api</h1>
+          <h1 className="textAlign">Twitter API</h1>
           <div style={{ width: "30%", "margin-top": "30px" }}>
             <SearchBar width="13.6%" margin="0.4%" />
           </div>

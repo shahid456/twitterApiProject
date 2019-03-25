@@ -40,7 +40,7 @@ class Users extends React.PureComponent {
     this.setState({ isNextPageLoading: true }, () => {
       let url = "";
       let value = this.props.value;
-      value = encodeURIComponent(value.slice(1, value.length));
+      value = encodeURIComponent(value);
       url =
         NAME_SEARCH + "q=" + value + "&page=" + this.state.page + "&count=10";
       this.setState({
