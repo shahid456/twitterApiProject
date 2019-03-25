@@ -1,0 +1,201 @@
+body {
+  font-size: 14pt;
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+.SearchBar {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.SearchPage {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.Search {
+  margin-top: 120px;
+  text-align: center;
+}
+
+#searchin {
+  width: 90%;
+  margin-right: 10px;
+  height: 30px;
+}
+
+.list {
+  list-style-type: none;
+  position: absolute;
+  z-index: 9999;
+  width: 45.6%;
+  background-color: beige;
+  margin-top: 0px;
+  margin-left: 23.3px;
+  padding: 0px;
+}
+
+.list > li {
+  text-align: left;
+  padding: 5px;
+  color: black;
+}
+.list > li > a {
+  color: black;
+  text-decoration: none;
+}
+
+.list > li:hover {
+  background-color: #eee;
+}
+
+.btnSearch {
+  height: 35px;
+  background-color: #333;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.TitleBar {
+  background-color: dimgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: aliceblue;
+  height: 80px;
+}
+.userBar {
+  background-color: rgb(184, 184, 190);
+  color: black;
+  margin-top: -25px;
+}
+.whiteColor {
+  color: whitesmoke;
+}
+.textAlign {
+  text-align: center;
+}
+.NavBar {
+  margin-top: -24.6px;
+}
+.btnNav1 {
+  background-color: rgb(131, 121, 121);
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 15%;
+}
+
+.btnNav1:hover {
+  background-color: black;
+}
+.btnNav2 {
+  background: transparent;
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 15%;
+}
+
+.btnNav2:hover {
+  background-color: black;
+  color: white;
+}
+.userItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 350px;
+  background-color: beige;
+  margin-top: 10px;
+}
+.userItem > p {
+  width: 50%;
+}
+header,
+footer {
+  display: flex;
+  flex-direction: row;
+}
+header .profile-thumbnail {
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+}
+header .profile-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+header h3,
+header h4 {
+  display: flex;
+  margin: 0;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+#inner {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+#inner p {
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: left;
+}
+.date {
+  text-align: left;
+}
+#inner hr {
+  margin: 20px 0;
+  border-style: solid;
+  opacity: 0.1;
+}
+footer .stats {
+  display: flex;
+  font-size: 15px;
+}
+footer .stats strong {
+  font-size: 18px;
+}
+footer .stats .likes {
+  margin-left: 10px;
+}
+footer .cta {
+  margin-left: auto;
+}
+footer .cta button {
+  border: 0;
+  background: transparent;
+}
+.imgDim {
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
