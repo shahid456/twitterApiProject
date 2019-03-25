@@ -34,9 +34,9 @@ body {
   position: absolute;
   z-index: 9999;
   width: 45.6%;
-  background-color: beige;
+  background-color: #eaead9;
   margin-top: 0px;
-  margin-left: 23.3px;
+  margin-left: 1.8%;
   padding: 0px;
 }
 
@@ -130,6 +130,8 @@ header,
 footer {
   display: flex;
   flex-direction: row;
+  margin-left: 5px;
+  margin-top: 5px;
 }
 header .profile-thumbnail {
   width: 50px;
@@ -162,6 +164,7 @@ header a:hover {
   display: flex;
   flex-direction: column;
   align-content: space-around;
+  margin-left: 5px;
 }
 #inner p {
   margin-bottom: 10px;
@@ -198,4 +201,7 @@ footer .cta button {
   height: 50px;
   border-radius: 4px;
   margin-top: 20px;
+}
+.dimension {
+  height: 150px;
 }

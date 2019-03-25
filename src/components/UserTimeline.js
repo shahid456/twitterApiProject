@@ -3,6 +3,7 @@ import { USER_TIMELINE, INC_ENTITIES } from "../constants/api-endpoints";
 import Wrapper from "./TweetsPage/Wrapper";
 import { Link } from "react-router-dom";
 import { FindMin } from "../utils/findMin";
+import SearchBar from "./SearchPage/SearchBar.js";
 class UsersPage extends React.Component {
   constructor(props) {
     super(props);
@@ -77,6 +78,9 @@ class UsersPage extends React.Component {
             />
           </Link>
           <h1 className="textAlign">Twitter Api</h1>
+          <div style={{ width: "30%", "margin-top": "30px" }}>
+            <SearchBar width="13.6%" margin="0.4%" />
+          </div>
         </div>
         <div className="userBar">
           <h1>{this.props.location.state}</h1>
@@ -87,7 +91,7 @@ class UsersPage extends React.Component {
           items={this.state.items}
           loadNextPage={this._loadNextPage}
           Page="Tweets"
-          itemSize={230}
+          itemSize={250}
         />
       </div>
     );

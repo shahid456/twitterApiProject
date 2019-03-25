@@ -8,6 +8,7 @@ import "../../index.css";
 import Users from "./Users.js";
 import Tweets from "./Tweets.js";
 import { Link } from "react-router-dom";
+import SearchBar from "../SearchPage/SearchBar";
 class TweetsUsersPage extends React.PureComponent {
   constructor(props) {
     super(props);
@@ -42,6 +43,9 @@ class TweetsUsersPage extends React.PureComponent {
             />
           </Link>
           <h1 className="textAlign">Twitter Api</h1>
+          <div style={{ width: "30%", "margin-top": "30px" }}>
+            <SearchBar width="13.6%" margin="0.4%" />
+          </div>
         </div>
         <div className="userBar">
           <h1>{this.props.location.state}</h1>
